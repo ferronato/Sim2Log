@@ -1,0 +1,57 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+<style>
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+</style>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-5">
+            Sim2Log - Gerador de logs sintéticos <i class="fas fa-globe-americas"></i>
+        </h1>
+        <p class="lead">
+            PUC-PR - Pontifícia Universidade do Paraná | PPGIA - Programa de Pós-graduação em Informática
+        </p>
+        <p class="lead">
+            Doutorando: Jair José Ferronato | Orientador: Edson Emílio Scalabrin
+        </p>
+        <p class="lead">
+            E-mail: jair.ferronato@gmail.com
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Descrição do Gerador de logs sintéticos Sim2Log</h5>
+                    <p class="card-text">
+                        O gerador de logs sintéticos cria logs a partir de um modelo e está organizado em 7 etapas:
+                        <br>
+                        1 - Leitura de um log de eventos
+                        <br>
+                        2 - Identificação do Modelo de Processo
+                        <br>
+                        3 - Parametrização para geração dos logs sintéticos
+                        <br>
+                        4 - Criação do Modelo de Simulação
+                        <br>
+                        5 - Execução do modelo de Simulação
+                        <br>
+                        6 - Geração dos logs sintéticos
+                        <br>
+                        7 - Validação dos logs gerados
+                        <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
