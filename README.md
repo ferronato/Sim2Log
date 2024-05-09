@@ -19,14 +19,17 @@ Este módulo permite a interação com o usuário com um ambiente web desenvolvi
 
 Esta ferramenta é independente de sistema operacional e precisa que alguns pacotes em Python sejam instalados para o correto funcionamento. 
 
+Versão do Python: 3.10 ou superior 
+
 Passos para a instalação no formato convencional.
 1) Faça o download do projeto do github
 2) Descompacte em uma pasta no sistema operacional
 3) Crie o ambiente virtual com o comando: python3 -m venv venv
-4) Ative o ambiente virtual: venv\Scripts\activate.bat
+4) Ative o ambiente virtual: .\venv\Scripts\activate.bat
 5) Instale as bibliotecas requisitos do sistema: pip install -r requirements.txt
-6) Execute a aplicação: python .\manage.py runserver
-7) Acesse o link web da aplicação: http://127.0.0.1:8000/
+6) Instale o aplicativo graphviz em: https://graphviz.org/download/
+7) Execute a aplicação: python ./manage.py runserver
+8) Acesse o link web da aplicação: http://127.0.0.1:8000/
 
 Os arquivos dos logs sintéticos são gerados na pasta principal.
 
